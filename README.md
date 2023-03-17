@@ -1,2 +1,8 @@
 # ts-express-template
-A template repo for TypeScript based Express applications
+
+A template project that contains:
+
+- Express
+- TypeScript
+- Morgan logging middleware
+- Winston logger
