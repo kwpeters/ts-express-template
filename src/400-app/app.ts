@@ -28,6 +28,8 @@ const corsOptions: CorsOptions = {
 };
 const corsMiddleware = cors(corsOptions);
 
+// CORS must be the first middleware layer.
+
 // To allow pre-flight requests associated with "complex" (DELETE requests and
 // requests with custom headers), add an OPTIONS handler to all routes.
 app.options("*", corsMiddleware);
